@@ -1,4 +1,7 @@
 {
+    "build": {
+        "@saveall": true
+    },
     "extensions": {
         "@aws.profile": "",
         "@aws.samcli.lambdaTimeout": 90000,
@@ -6,6 +9,9 @@
         "@editor.snippetSuggestions": "top",
         "@editor.suggest.preview": true,
         "@editor.suggest.showMethods": true
+    },
+    "instance": {
+        "@automaticShutdown": "30"
     },
     "language": {
         "tern_defs": {
@@ -27,6 +33,9 @@
     },
     "python": {
         "@path": "/usr/local/lib/python3.4/dist-packages:/usr/local/lib/python3.5/dist-packages"
+    },
+    "pythonTooling": {
+        "@dismiss_python_tooling_msg": false
     },
     "run": {
         "configs": {
